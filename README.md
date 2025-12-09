@@ -18,7 +18,7 @@ graph LR
         direction LR
         
         %% 1. 觸發 (Integration)
-        EventBridge[Amazon EventBridge<br/>(排程觸發)]:::integration
+        EventBridge[Amazon EventBridge<br/>(排程觸發)]:::integrationn
         
         %% 2. 收集 (Compute & Storage)
         LambdaCollect[AWS Lambda<br/>(Collector)]:::compute
